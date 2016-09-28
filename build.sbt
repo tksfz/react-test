@@ -1,6 +1,6 @@
 enablePlugins(ScalaJSPlugin)
 
-name := "Scala.js Tutorial"
+name := "test"
 
 scalaVersion := "2.11.8" // or any other Scala version >= 2.10.2
 
@@ -9,9 +9,10 @@ libraryDependencies ++= Seq("com.github.japgolly.scalajs-react" %%% "core" % "0.
   "com.github.japgolly.scalajs-react" %%% "extra" % "0.11.1",
   "com.github.chandu0101.scalajs-react-components" %%% "core" % "0.5.0")
 
-scalaJSUseRhino in Global := false
+//scalaJSUseRhino in Global := false
 
 // React JS itself (Note the filenames, adjust as needed, eg. to remove addons.)
+/*
 jsDependencies ++= Seq(
 
   "org.webjars.bower" % "react" % "15.3.2"
@@ -30,3 +31,4 @@ jsDependencies ++= Seq(
     minified  "react-dom-server.min.js"
     dependsOn "react-dom.js"
     commonJSName "ReactDOMServer")
+*/
